@@ -60,4 +60,4 @@ Merged_Data.mean <- dcast(Merged_Data.melted, Subject + Activity ~ variable, mea
 
 ## Writing Table
 
-write.table(Merged_Data.mean, "tidy.txt", row.names = FALSE, quote = FALSE)
+write.table(Merged_Data.mean, "cleaned.txt", row.names = FALSE, quote = FALSE)
